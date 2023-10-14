@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> DentiBrook </title>
+    <link rel="icon" href="/images/Logo.png">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/dashboard/css/dashboard.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div id="sidebar" class="sidebar">
+    <div class="logo-details">
+      <iconify-icon class="logo-icon" icon="mdi:tooth"></iconify-icon>
+        <div class="logo_name">DentiBrook</div>
+        <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Usuario</span>
+        </a>
+         <span class="tooltip">Usuario</span>
+      </li>
+      <li>
+       <a href="#">
+        <i class='bx bxs-objects-vertical-bottom' ></i>
+        <span class="links_name">Roles</span>
+       </a>
+       <span class="tooltip">Roles</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bx-male-female'></i>         
+        <span class="links_name">Pacientes</span>
+       </a>
+       <span class="tooltip">Pacientes</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bx-plus-medical'></i>
+        <span class="links_name">Odontologo</span>
+       </a>
+       <span class="tooltip">Odontologo</span>
+     </li>
+     <li>
+       <a href="#">
+        <i class='bx bxs-time-five'></i>
+        <span class="links_name">Cita</span>
+       </a>
+       <span class="tooltip">Cita</span>
+     </li>
+     <li class="profile">
+         <div class="profile-details">
+           <img src="/images/profile.jpg" alt="profileImg">
+           <div class="name_job">
+             <div class="name">Prem Shahi</div>
+             <div class="job">Web designer</div>
+           </div>
+         </div>
+         <i class='bx bx-log-out' id="log_out" ></i>
+     </li>
+    </ul>
+  </div>
+  <section class="home-section">
+      <div id="title-1" class="text"></div>
+      <div class="container">      
+        <table id="myTable">
+        </table> 
+      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+      </div>
+      <button id="addRowButton">Añadir nuevo</button>
+  </section>
+  <script src="/dashboard/js/dashboard-sidebar.js"></script>
+  <script src="/dashboard/js/dashboard.js"></script>
+</body>
+</html>
